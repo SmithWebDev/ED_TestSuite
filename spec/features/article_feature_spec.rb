@@ -6,12 +6,12 @@ RSpec.feature "Creating Articles" do
 
     click_link "New Article"
 
-    fill_in "title", with: "Creating a Blog"
-    fill_in "body" "Blog Content"
+    fill_in "Title", with: "Creating a Blog"
+    fill_in "Body", with: "Blog Content"
 
     click_button "Create Article"
 
-    expect(page).to have_content("Article has been created")
-    expect(page.current_page).to eq(articles_path)
+    expect(page).to have_content("Article has been created!")
+    expect(page.current_path).to eq(articles_path)
   end
 end
