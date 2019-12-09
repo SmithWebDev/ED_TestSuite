@@ -34,3 +34,17 @@
 - Create 1 article to display
 
 - Show the article title and details
+
+*Expectations*
+- Expect article title and body to be present
+
+### **Article Not Found test**
+- Create branch
+- Create article
+
+- List single article
+- attempt to search for unknown article
+
+*Expectations*
+- Expect response to find article via ID with existing article
+- Expect error message when looking for non-existing article
