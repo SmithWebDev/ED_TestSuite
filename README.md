@@ -1,4 +1,4 @@
-Process for creating articles feature test and feature
+*Process for creating articles feature test and feature
 
 - Create a branch to do the development work
 - Write feature test
@@ -15,3 +15,12 @@ Process for creating articles feature test and feature
 Expectations
 -Article has been created
 -articles path
+
+
+*Listing articles feature test
+- Create branch
+- create 2 articles to display
+
+- list the 2 articles
+
+- expect both article titles and bodies to be present
