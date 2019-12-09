@@ -1,4 +1,6 @@
-*Process for creating articles feature test and feature
+# Test Suite
+
+### **Process for creating articles feature test and feature**
 
 - Create a branch to do the development work
 - Write feature test
@@ -6,21 +8,29 @@
 - Once the feature test passes with no errors - merge branch with master branch
 
 
--Visit Root Page
--click on new article
--fill in title
--fill in body
--create article
+- Visit Root Page
+- Click on new article
+- Fill in title
+- Fill in body
+- Create article
 
-Expectations
--Article has been created
--articles path
+*Expectations*
+- Article has been created
+- Articles path
 
 
-*Listing articles feature test
+### **Listing articles feature test**
 - Create branch
-- create 2 articles to display
+- Create 2 articles to display
 
-- list the 2 articles
+- List the 2 articles
 
-- expect both article titles and bodies to be present
+*Expectations*
+- Expect both article titles and bodies to be present
+- Expect both article titles and bodies not to be present
+
+### **Showing articles feature test **
+- Create branch
+- Create 1 article to display
+
+- Show the article title and details
