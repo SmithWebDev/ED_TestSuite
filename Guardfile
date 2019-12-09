@@ -71,6 +71,7 @@ guard :rspec, cmd: "bundle exec rspec" do
   dsl.watch_spec_files_for(rails.views)
 
   watch(%r{^app/controllers/(.+)_(controller)\.rb$}) { "spec/features"}
+  watch(%r{^app/controllers/(.+)_(controller)\.rb$}) { "spec/requests"}
   watch(%r{^app/models/(.+)\.rb$}) { "spec/features"}
   watch(rails.controllers) do |m|
     [
