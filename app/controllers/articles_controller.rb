@@ -12,7 +12,8 @@ class ArticlesController < ApplicationController
       flash[:success] = "Article has been created!"
       redirect_to articles_path
     else
-      flash[:danger] = "Article has not been created!"
+      # Adding .now will allow the flash message to show only at the time of error
+      flash.now[:danger] = "Article has not been created!"
       render :new
     end
   end

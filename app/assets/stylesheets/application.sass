@@ -1,14 +1,52 @@
 @import "bootstrap-sprockets"
 @import "bootstrap"
 
+$primary-color: #4F1271
+$secondary-color: #783F8E
+$accent-color: #E3A8FF
+
+
 *
   padding: 0
   margin: 0
 
 body
   background: #e1e1e1
-  color: #64103f
+  color: $primary-color
 
+// Navbar Styling
 .navbar
   border-radius: 0
-  
+  background: $primary-color
+  padding-bottom: 20px
+
+.navbar-inverse
+  border: $primary-color
+  & .navbar-brand
+    padding-top: 25px
+    font-size: 150%
+    font-weight: bold
+    color: #ffffff
+    &:hover
+      color: $accent-color
+  & .navbar-nav
+    padding-top: 10px
+    padding-right: 20px
+    & li > a
+      font-weight: bold
+      font-size: 130%
+      color: #ffffff
+      &:hover
+        color: $accent-color
+
+// Form Styling
+.page-heading, div > label
+  color: $primary-color
+
+
+// Listing Articles Styling
+.article-title
+  font-weight: bold
+  font-size: 2.5em
+  margin-bottom: 0.8em
+  padding-left: 0.7em
