@@ -29,7 +29,7 @@
 - Expect both article titles and bodies to be present
 - Expect both article titles and bodies not to be present
 
-### **Showing articles feature test **
+### **Showing articles feature test**
 - Create branch
 - Create 1 article to display
 
