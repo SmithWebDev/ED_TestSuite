@@ -57,3 +57,13 @@
 
 *Expectations*
 - Expect updated article title and body to be present
+
+### **Deleting articles feature test**
+- Create branch
+- Select an article to display
+
+- Create delete button for article removal
+
+*Expectations*
+- Expect article to be removed
+- Expect message stating that the article has been removed
